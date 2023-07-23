@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><button class="add-book" onclick="addBookFunction()">Add Book To Library</button></center>
+    <div class="container">
+
+    </div>
+    <center>
+        <div class="form-div">
+            <form action="#">
+                <center><label for="author" >Author Name</label><br></center>
+                <center><input type="text" name="author" id="author"><br> </center>
+                <center style="padding-top: 20px;"><label for="author">Book Name</label><br></center>
+                <center><input type="text" name="book" id="book"><br></center>
+                <center style="padding-top: 20px;"><label for="author">Number of pages</label><br></center>
+                <center><input type="number" name="pages" id="pages" placeholder="eg. 120"><br></center>
+                <center><button type="button" id="read-btn" onclick="readFunction()">Not read</button><br></center>
+                <center><button type="button" id="submit" onclick="submitFunction()">Ok!</button><br></center>
+            </form>
+        </div>
+    </center>
+</body>
+<script src="script.js"></script>
+</html>
